@@ -1,0 +1,11 @@
+OBSERVABILITY
+
+The Observability feature enables us to observe the internal state of the running system from the outside.
+
+It consists of three pillars
+*Logging
+*Metrics
+*Tracing
+
+For metrics and tracing , springboot uses Micrometer Observation. To create your own
+Observations (which will lead to metrics and traces, you can inject an ObservationRegistry
